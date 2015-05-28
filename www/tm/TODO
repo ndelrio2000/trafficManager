@@ -1,0 +1,9 @@
+
+Hacer filtro por fechas/hosts/estados de los logs. Uso: http://eonasdan.github.io/bootstrap-datetimepicker/Installing/    format: 'MM/YYYY'
+
+Escribir como se debe hacer la configuracion de DNS secundario (sacar de la tesis)
+
+HACER un script que corra como cron cada determinado tiempo para verificar si quedo algo incoherente. Por ejemplo que haya levantado primero el host de failover
+y que el chequeo del principal no se haya hechoO. Ver en el caso de servicios si se puede haer algo con la variable $host.last_state$ ya que si nunca
+se chequeo lo podría zafar con esto
+
