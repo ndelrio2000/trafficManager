@@ -82,16 +82,11 @@
     	    		<tr class="header"> <th></th><th>Servicio</th> <th>Estado</th><tr>
 
 			{if $primaryDnsStatus == true}
-    	    		    <tr class="success"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres Primario</td> <td class="small">OK</td></tr>
+    	    		    <tr class="success"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres</td> <td class="small">OK</td></tr>
 			{else}
-    	    		    <tr class="danger"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres Primario</td> <td class="small">DOWN</td></tr>
+    	    		    <tr class="danger"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres</td> <td class="small">DOWN</td></tr>
 			{/if}
 
-			{if $seccondaryDnsStatus == true}
-    	    		    <tr class="success"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres Secundario</td> <td class="small">OK</td></tr>
-			{else}
-    	    		    <tr class="danger"><td><img src="img/bind.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de Nombres Secundario</td> <td class="small">DOWN</td></tr>
-			{/if}
 
 			{if $icingaStatus == true}
     	    		    <tr class="success"><td><img src="img/icinga.jpg" class="img-thumbnail" width="30" height="30"></td> <td class="small">Servidor de monitoreo</td> <td class="small">OK</td></tr>

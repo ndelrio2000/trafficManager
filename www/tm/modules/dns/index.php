@@ -61,6 +61,7 @@ if (isset($_GET['action']) ){
 	    break;
 	case "seccondaries":
 	    //Muestro la explicacion de como configurar los DNS secundarios
+	    $smarty->assign('dnsKey',$config['dnsKeyHash']);
 	    $smarty->display('dnsSeccondaries.tpl');
 	    break;
 	default:
