@@ -4,7 +4,6 @@
 Event handler Script that receives all the services and host state changes from icinga
 It's called from icinga when a monitoring event change ocurrs
 
-Ver las macros que se pueden definir en: http://docs.icinga.org/latest/en/macrolist.html#macrolist-hostname
 command = "/opt/trafficmanager/nagiosplugins/notify_traffic_manager.php $host.name$ $host.vars.domain$ $host.address$ $host.vars.failoveraddress$ $host.state$ $host.state_type$ $host.vars.isfailoverhost$ $host.last_state$ "
 /opt/trafficmanager/nagiosplugins/notify_traffic_manager 'SERVICE' $HOSTNAME$ $HOSTADDRESS$ $HOSTADDRESS6$ $HOSTSTATE$ $LASTHOSTSTATE$ $HOSTSTATETYPE$ $HOSTATTEMPT$ $HOSTPERCENTCHANGE$ $LASTHOSTCHECK$ $HOSTOUTPUT$ $LONGHOSTOUTPUT$ $HOSTCHECKCOMMAND$
 
