@@ -1,6 +1,4 @@
 <?PHP
-$config['username']="ndelrio";
-$config['password']="nicolas";
 $config['icingaAuthKey']="d3OuOUFo5slDsfpDsXUXV15Z7SZ";
 $config['icingaApiUrl']="http://".$_SERVER['SERVER_ADDR']."/icinga-web/web/api/";
 $config['icingaObjectsDir']="/etc/icinga2/conf.d/";
@@ -10,8 +8,8 @@ $config['icingaEventHandler']="notify_traffic_manager";
 
 $config['baseDir']="/var/www/tm/";
 $config['dbHost']="localhost";
-$config['dbUsername']="root";
-$config['dbPassword']="nicolas";
+$config['dbUsername']="trafficManager";
+$config['dbPassword']="managerTraffic";
 $config['dbName']="trafficManager";
 $config['icingaDbName']="icinga2idomysql";
 
